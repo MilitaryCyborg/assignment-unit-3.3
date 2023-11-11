@@ -56,7 +56,22 @@ supplyChanges.push(25);
 console.log('6. Looping through supplyChanges to populate arrays with positive, negative, and zero values:');
 
 //answer:
+let positives = [];
+let negatives = [];
+let zeroes = [];
 
+for (let i = 0; i < supplyChanges.length; i++) {
+  if (supplyChanges[i] > 0) {
+    positives.push(supplyChanges[i]);
+    console.log(positives);
+  } else if (supplyChanges[i] < 0) {
+    negatives.push(supplyChanges[i]);
+    console.log(negatives);
+  } else {
+    zeroes.push(supplyChanges[i]);
+    console.log(zeroes);
+  }
+}
 //end answer
 
 
