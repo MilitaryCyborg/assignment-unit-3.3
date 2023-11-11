@@ -8,7 +8,7 @@ console.log('1. Create partsNeeded:');
 
 //answer:
 let partsNeeded = 40;
-  console.log(partsNeeded);
+  console.log('Parts needed: ', partsNeeded);
 //end answer
 
 // 2. Create a variable called 'supplyChanges' whose value is an array containing
@@ -17,7 +17,7 @@ console.log('2. Create supplyChanges:');
 
 //answer:
 let supplyChanges = [ 3, 5, -6, 0, 7, 11];
-  console.log(supplyChanges);
+  console.log('Supply Changes: ', supplyChanges);
 //end answer
 
 // 3. Create a variable called 'secondItem' and assign it the value of the second
@@ -26,17 +26,25 @@ console.log('3. Access the second value of supplyChanges:');
 
 //answer:
 let secondItem = supplyChanges[1];
-  console.log(secondItem);
+  console.log('The second item is: ', secondItem);
 //end answer
 
 // 4. The last value in the 'supplyChanges' array was added by mistake.
 //    Remove it from the array and store it inside a new variable called 'removedItem'.
 console.log('4. Remove the last value from supplyChanges:');
 
+//answer:
+removedItem = supplyChanges.pop();
+  console.log('The removed item is: ', removedItem);
+//end answer
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Add the value 25 into supplyChanges.');
 
+//answer:
+supplyChanges.push(25);
+  console.log('More parts arrived: ', supplyChanges[5]);
+//end answer
 
 // 6. Create three new variables named 'positives', 'negatives', and
 //    'zeroes' whose values are empty arrays. Then, write a for loop
@@ -47,7 +55,9 @@ console.log('5. Add the value 25 into supplyChanges.');
 //      - If the value is a zero, push it into the 'zeroes' array.
 console.log('6. Looping through supplyChanges to populate arrays with positive, negative, and zero values:');
 
+//answer:
 
+//end answer
 
 
 // ***** STRETCH GOALS *********************************************
